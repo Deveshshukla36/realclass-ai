@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognitive Twin AI - Code Homeboys Edition</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --homeboys-mint: #e2f4f1;
+            --homeboys-teal: #0d9488;
+            --homeboys-dark: #0f172a;
+            --homeboys-coral: #fb7185;
+            --homeboys-amber: #fbbf24;
+            --homeboys-indigo: #4f46e5;
+        }
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background-color: var(--homeboys-mint);
+            color: var(--homeboys-dark);
+            background-image: 
+                radial-gradient(circle at 2px 2px, rgba(13, 148, 136, 0.05) 1px, transparent 0);
+            background-size: 24px 24px;
+        }
+        .organic-shape {
+            border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        }
+        .sketchy-border {
+            border: 4px solid var(--homeboys-dark);
+            border-radius: 25px 5px 20px 5px/5px 20px 5px 25px;
+        }
+        .sketchy-shadow {
+            box-shadow: 8px 8px 0px 0px var(--homeboys-dark);
+            transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        .sketchy-shadow:hover {
+            transform: translate(-3px, -3px);
+            box-shadow: 12px 12px 0px 0px var(--homeboys-dark);
+        }
+        .homeboys-gradient {
+            background: linear-gradient(135deg, var(--homeboys-teal), var(--homeboys-indigo));
+        }
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+        .floating {
+            animation: float 4s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-10px) rotate(2deg); }
+            100% { transform: translateY(0px) rotate(0deg); }
+        }
+        .notion-card {
+            border-left-width: 8px;
+            transition: all 0.2s ease;
+        }
+        .notion-card:hover {
+            transform: translateX(4px);
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "recharts": "https://esm.sh/recharts@^3.7.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.41.0",
+    "d3": "https://esm.sh/d3@^7.9.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.564.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="overflow-x-hidden">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
