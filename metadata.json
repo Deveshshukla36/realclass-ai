@@ -1,0 +1,8 @@
+{
+  "name": "REAL CLASS AI",
+  "description": "A predictive learning intelligence system with Code Homeboys-inspired illustrative UI, featuring AI exam generation, Notion-style planning, and real-time story recording.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
