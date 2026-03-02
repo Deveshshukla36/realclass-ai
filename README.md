@@ -1,101 +1,150 @@
+![RealClass AI Banner](./banner.png)
+# RealClass AI  
+### Predictive Classroom Intelligence System  
+
+> Predicting Learning Risks Early | Promoting Mastery-First Education
+> 
+---
+
+## 🎥 Demo Video  
+
+Watch the 3-minute demo here:  
+👉 **[https://drive.google.com/drive/folders/1KSTXehqDn-tRy97tfVAI69sxju_XZyl1]**
+
 
 ---
 
-# RealClass AI
+## 👥 Team – Code Homeboys  
 
-### Predictive Classroom Intelligence System
-
-RealClass AI is a predictive learning platform designed to transform traditional reactive education into proactive mastery-based learning. Instead of identifying weaknesses after exams, the system models concept-level understanding, tracks retention behavior, and predicts exam readiness before failure occurs.
-
----
-
-## 👥 Team – Code Homeboys
-
-
-**Team Members:**
-* Devesh Shukla
-* Subodeep Sarkar
-* Devid Jangde
+**Team Leader:** Devesh Shukla  
+**Team Members:**  
+- Subodeep Sarkar  
+- Devid Jangde  
 
 ---
 
-## 🎯 Problem Statement
+## 🎯 Problem Statement  
 
-Education systems today are marks-driven and reactive. Students often discover conceptual gaps only after assessments. Teachers lack real-time insight into mastery levels, retention strength, and early academic risk indicators. Additionally, there is limited structured feedback and growing concern around academic integrity.
+Traditional education systems are reactive and marks-driven.  
+Students often discover conceptual gaps only after exams.  
+
+Teachers lack real-time insight into:
+- Concept-level mastery  
+- Retention strength  
+- Early academic risk indicators  
+
+Additionally, structured feedback and academic integrity enforcement remain limited.
 
 A predictive, explainable, and student-centric intelligence layer is needed in modern classrooms.
 
 ---
 
-## 💡 Our Solution
+## 💡 Our Solution  
 
-RealClass AI builds a personalized cognitive learning profile for each student. It combines mastery tracking, retention modeling, and probabilistic exam-risk prediction to provide early academic intervention.
+RealClass AI builds a **Cognitive Learning Twin** for every student.
 
-The platform shifts education from reactive grading to predictive mastery development.
+Instead of acting as a basic chatbot tutor, it:
 
----
+- Maps concept mastery using a Knowledge Graph  
+- Tracks retention using memory decay modeling  
+- Applies SM-2 spaced repetition for intelligent revision scheduling  
+- Predicts exam readiness using Bayesian probability  
+- Provides rubric-aware feedback for assignments  
+- Supports multilingual (Indian language) learning  
+- Integrates academic integrity tools  
 
-## 🚀 Core Capabilities
+It shifts education from:
 
-### 1. Concept Coach
-
-* Stepwise guided hints for first-time learners
-* Adaptive concept reinforcement
-* Mastery tracking per topic
-
-### 2. Predictive Exam Readiness
-
-* Bayesian-based risk estimation
-* Weak concept ranking
-* Readiness analytics dashboard
-
-### 3. Intelligent Revision Planner
-
-* SM-2 spaced repetition scheduling
-* Memory decay modeling
-* Automated revision recommendations
-
-### 4. Rubric-Aware Feedback
-
-* Structured evaluation for essays, code, labs, and presentations
-* Actionable improvement insights
-
-### 5. Multilingual & Inclusive Learning
-
-* Support for Indian languages
-* Voice-based interaction
-* Teacher updates and learning stories
-
-### 6. Academic Integrity by Design
-
-* Originality assistance
-* Citation helper
-* Anti-cheat focused workflow
+Reactive ❌ → Predictive ✅  
+Marks-based ❌ → Mastery-based ✅  
 
 ---
 
-## 🏗 System Architecture
+## 🚀 Core Capabilities  
 
-**Frontend:** React (Vite) with Tailwind CSS
-**Backend:** Python (FastAPI)
-**AI & Modeling:**
+### 🔹 Concept-Level Mastery Tracking  
+- Dynamic knowledge graph visualization  
+- Mastery heatmap analytics  
+- Weak-topic identification  
 
-* Knowledge Graph (NetworkX)
-* SM-2 Spaced Repetition Algorithm
-* Memory Decay Modeling
-* Bayesian Risk Prediction
+### 🔹 Predictive Exam Risk Engine  
+- Bayesian probability-based risk estimation  
+- Readiness score dashboard  
+- Early intervention insights  
 
-**Database:** SQLite
-**AI Integration:** Gemini API
+### 🔹 Intelligent Revision Planner  
+- SM-2 spaced repetition algorithm  
+- Memory decay modeling  
+- Automated revision scheduling  
+
+### 🔹 Rubric-Aware Feedback System  
+- Structured evaluation for essays, code, labs, and presentations  
+- Actionable improvement insights  
+
+### 🔹 Multilingual & Inclusive Learning  
+- Indian language support  
+- Voice-based interaction  
+- Teacher updates and learning feeds  
+
+### 🔹 Academic Integrity by Design  
+- Citation assistance  
+- Structured originality guidance  
+- Responsible AI architecture  
 
 ---
 
-## 📊 Impact
+## 🏗 System Architecture  
 
-RealClass AI enables early academic intervention by identifying conceptual weaknesses before exams. It improves retention through intelligent revision scheduling and promotes fairness through structured, transparent feedback mechanisms.
+### Frontend  
+- React (Vite)  
+- Tailwind CSS  
+- Interactive analytics dashboards  
 
-The platform aims to create measurable improvement in mastery, clarity, and academic confidence while maintaining ethical and explainable AI practices.
+### Backend  
+- FastAPI (Python)  
+- Modular REST API services  
 
+### Cognitive Intelligence Engine  
+- Knowledge Graph (NetworkX)  
+- SM-2 Spaced Repetition  
+- Memory Decay Modeling  
+- Bayesian Risk Prediction  
+
+### Database  
+- SQLite (extensible to cloud infrastructure)  
+
+### AI Integration  
+- Gemini API for NLP & multilingual processing  
+
+---
+
+## 📊 Expected Impact  
+
+RealClass AI enables:
+
+- Early detection of conceptual weaknesses  
+- Improved retention through intelligent revision cycles  
+- Reduced exam failure probability  
+- Structured, transparent evaluation  
+- Inclusive AI-powered learning  
+- Responsible and explainable academic intelligence  
+
+The platform transforms classrooms into predictive, data-aware learning environments.
+
+---
+
+## 🔐 Responsible & Explainable AI  
+
+- Transparent risk indicators  
+- Human-in-the-loop tutor validation  
+- No black-box grading  
+- Ethical, student-first design  
+
+---
+
+## 🛠 Local Setup  
+
+1. Install dependencies  
 ---
 
 ## 🛠 Local Setup
@@ -132,7 +181,3 @@ npm run dev
 ## 🌍 Vision
 
 RealClass AI is designed as a scalable predictive academic intelligence system that empowers students, supports educators, and advances inclusive, data-driven learning.
-
----
-
-If you want, I can now make a **shorter minimalist README** or a **more startup-style impressive version** depending on what kind of impression you want judges to have.
