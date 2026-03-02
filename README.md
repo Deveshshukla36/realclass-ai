@@ -1,4 +1,4 @@
-![RealClass AI Banner](./bannerng)
+![RealClass AI Banner](./banner.png)
 # RealClass AI  
 ### Predictive Classroom Intelligence System  
 
